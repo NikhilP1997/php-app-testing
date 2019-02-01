@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/edonosotti/php-functional-tests-sample-app.svg?branch=master)](https://travis-ci.org/edonosotti/php-functional-tests-sample-app)
+
 # Using PHP Built-in Server to run automated testing
 
 ## Description

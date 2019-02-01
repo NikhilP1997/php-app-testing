@@ -1,0 +1,12 @@
+{
+    "require-dev": {
+        "ezyang/htmlpurifier": "^4.10",
+        "phpunit/phpunit": "^7.5",
+        "symfony/process": "^4.2",
+        "guzzlehttp/guzzle": "^6.3",
+        "masterminds/html5": "^2.5"
+    },
+    "require": {
+        "slim/slim": "^3.0"
+    }
+}

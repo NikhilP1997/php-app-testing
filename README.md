@@ -1,14 +1,17 @@
 [![Build Status](https://travis-ci.org/edonosotti/php-functional-tests-sample-app.svg?branch=master)](https://travis-ci.org/edonosotti/php-functional-tests-sample-app)
+[![Maintainability](https://api.codeclimate.com/v1/badges/76396160edb04cd6aefa/maintainability)](https://codeclimate.com/github/edonosotti/php-functional-tests-sample-app/maintainability)
 
 # Using PHP Built-in Server to run automated testing
 
 ## Description
 
-`phpunit` is widely used to unit-test `PHP` code, but using the `PHP` built-in
-server, it can be used to run *functional* tests
-(see [#20 here](https://www.softwaretestinghelp.com/types-of-software-testing/))
+`phpunit` is widely used to unit-test `PHP` code. Using the `PHP` built-in
+server, it can be used to run *End-to-End*, *Functional* and *Black Box* tests
+(see [#9), #15, #20 here](https://www.softwaretestinghelp.com/types-of-software-testing/))
 to verify that your application is behaving as expected and that the rendered
-output is correct.
+output is correct. It is a viable alternative to more complex testing tools, such as
+`Selenium Web Driver`, for simple web applications or even static websites
+(static content needs validation too).
 
 ### Included tests
 
